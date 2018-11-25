@@ -1,0 +1,68 @@
+body {
+    background-image: url("../images/background.png")
+
+}
+
+#game-container {
+    max-width: 960px;
+    background-color: #ffffff;
+    margin: 0px auto;
+    padding: 30px 40px;
+    
+}
+
+#game-header h1{
+    font-family: 'Amatic SC', cursive;
+    /* font-weight: bold; */
+    font-size: 7em;
+    text-align: center;
+    padding: 20px 0px;
+    color: #f176a3;
+    
+}
+
+#time-left {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#game-header {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: #f176a3 solid 2px;
+}
+
+#question-container {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.4em;
+}
+#start-popup {
+    text-align: center;
+}
+
+.gamebutton {
+
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+    border: #2196f3 solid 3px;
+    font-weight: bold;
+    padding: 5px 30px;
+    color: #2196f3;
+}
+
+.question-block {
+    margin: 25px 30px;
+}
+.choice-block {
+    padding: 20px 30px;
+}
+
+.choice-block li{
+    padding-bottom:10px; 
+}
+
+.choice-block li input{
+    margin-right: 20px;
+}
