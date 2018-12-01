@@ -30,15 +30,15 @@ var question4 = {
 
 var question5 = {
     name: "q5",
-    question: "Who is the best back street boy?",
-    answers: ["a1", "a2", "a3", "a4"],
-    correct: "a3"
+    question: "Which Batman villain is named Professor Jonathan Crane",
+    answers: ["Clayface", "Dr Hugo", "Bane", "Scarecrow"],
+    correct: "Scarecrow"
 };
 
 var question6 = {
     name: "q6",
-    question: "Who is the best back street boy?",
-    answers: ["a1", "a2", "a3", "a4"],
+    question: "What is the Riddlers alter ego",
+    answers: ["Selina Kyle", "Edward Nigma", "Dr. Harleen Frances Quinzel", "Oswald Chesterfield Cobblepot"],
     correct: "a3"
 };
 
