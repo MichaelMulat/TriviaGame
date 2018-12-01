@@ -5,28 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Trivia Game</title>
+    <title>Bat-rivia Game</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 
-<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Oswald" rel="stylesheet">
 </head>
 
 <body>
     <div id="game-container">
         <header id="game-header">
-            <h1>Totally Trivial Trivia</h1>
+            <h1>It's A Bat-rivia Quiz</h1>
             <h3 id="time-left">
-                Time Left: <span class="time">0:00</span>
+                Time Left: <span id="time"> 00:00 </span>
             </h3>
+
+            <button class="gamebutton" id="start-btn">Start</button>
         </header>
+
+        <div id="results-popup">
+        
+            <h3>Thanks for taking the quiz. <br> You scored</h3>
+            <div id="quiz-results"></div>
+            <div id="unanswered"></div>
+        
+            <!-- <h3>with <span id="time-left-end"></span>left</h3> -->
+        
+        </div>
         <form id="question-container">
 
-            
+
         </form>
-            <button class="gamebutton" id="startbtn"> Start</button>
-        </div>
+        <button class="gamebutton" id="done-btn"> Done</button>
+        
+
+       
+        
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
     <script src="assets/js/app.js"></script>
 </body>
 

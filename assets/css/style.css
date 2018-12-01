@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/background.png")
+    background-image: url("../images/background_green.png")
 
 }
 
@@ -17,7 +17,7 @@ body {
     font-size: 7em;
     text-align: center;
     padding: 20px 0px;
-    color: #f176a3;
+    color: #a3d84e;
     
 }
 
@@ -29,9 +29,10 @@ body {
 }
 
 #game-header {
+    text-align: center;
     padding-bottom: 20px;
     margin-bottom: 20px;
-    border-bottom: #f176a3 solid 2px;
+    border-bottom: #a3d84e solid 2px;
 }
 
 #question-container {
@@ -41,15 +42,23 @@ body {
 #start-popup {
     text-align: center;
 }
+#start-btn {
+    margin-top: 30px;
+}
 
 .gamebutton {
 
     font-family: 'Amatic SC', cursive;
     font-size: 2em;
-    border: #2196f3 solid 3px;
+    border: #a3d84e solid 3px;
     font-weight: bold;
     padding: 5px 30px;
-    color: #2196f3;
+    color: #a3d84e;
+}
+
+.gamebutton :hover {
+    color: #ffffff;
+    background-color: #a3d84e;
 }
 
 .question-block {
@@ -65,4 +74,34 @@ body {
 
 .choice-block li input{
     margin-right: 20px;
+}
+
+#results-popup {
+    display: none;
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+    top: 0; left: 0; bottom: 0; right: 0;
+    /* height: 300px; */
+    background-color: #a3d84e;
+}
+
+#quiz-results, #unanswered {
+    font-family: 'Amatic SC', cursive;
+    margin: auto;
+    font-weight: bold;
+    font-size: 4em;
+    text-align: center;
+    padding: 20px 0px;
+    color: #fff;
+}
+
+#results-popup h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    padding: 30px 0px 20px;
+    color: #fff;
+    line-height: 1.2;
 }
